@@ -1,0 +1,167 @@
+conteiner
+footer{
+    background-color: #aaa;
+}
+h1, h2, h3{
+    font-family: "alfa slab one", cursive;
+}
+.hero {
+background:url(../images/1611663627.png) no-repeat;
+background-size: cover;
+height: 50vh;
+min-height: 600px;
+color: rgb(0, 0, 0);
+}
+
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    right: -150px;
+
+}
+
+
+
+.lista-novedades li {
+    margin: 4px 0;
+}
+.lista-novedades li a {
+    background-color: white;
+    font-family: "Alfa Slab One", cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #EEEEEE;
+    transition: all .2s ease-in-out;
+    display: block; 
+}
+.lista-novedades li a:hover {
+    color: #212529;
+    background-color: #dadada;
+}
+.lista-novedades li a img {
+    width:  75px;
+    height: 75px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+.testimonios{
+    background-color: rgba(255, 255, 255, 0.589);
+    padding-bottom: 4rem !important;
+    position:relative;   
+    width: 350%;
+    left: 125px;
+}
+.testimonio{
+    text-align: center;
+    padding: 50px 20px;
+    align-self: flex;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-image: none;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after{
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color: #000;
+}
+
+.carousel-control-prev-icon:after{
+    content: "\f137";
+}
+
+.carousel-control-next-icon:after{
+    content: "\f138";
+}
+
+.carousel-indicators li {
+    background-color: #000;
+}
+
+.staff {
+    background: #A5C9CA;
+}
+
+#nosotros {
+   position: relative;
+width: 600px;
+height: 650px;
+border-color: orange;
+}
+#FanArt {
+position: relative;
+float: right;
+width: 600px;
+height: 650px;
+}
+
+#JoJos {
+    position: relative;
+    width: 600px;
+    height: 650px;
+    }
+
+ #Montañas {
+    position:relative;
+    float: right;
+    width: 300px;
+    height: 350px;   
+}
+       
+
+#nombre {
+    width: 225px;
+    position: relative;
+}
+
+#email {
+    width: 580%;
+}
+
+#mensaje {
+    width: 500%;
+}
+
+p {
+width: 240%;
+}
+
+.card-text {
+    width: auto;
+}
+
+.Bizarro{
+    position: relative;
+    width:auto;
+    top: -1380px;
+    right: -710px
+}
+.Documental {
+    position: relative;
+    width:auto;
+    top: -1300px;
+
+}
+
+body{
+    background-color: 
+    rgba(255, 255, 255, 0.849);
+}
+
+iframe {
+position: relative;
+left: 250px;
+}
