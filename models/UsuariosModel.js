@@ -3,8 +3,8 @@ var md5 = require ("md5");
 
 async function getUserAndPassword(user, password) {
     try {
-        var query = "select - from nombre where usuario = ? and password = ? limit 1";
-    var rows = await pool.query(query, [user, md5 (password)]);
+        var query = "select * from usuarios where usuario = ? and clave = ? limit 1";
+    var rows = await pool.query(query, [user, md5(password)]);
     return rows[0];
 
     } catch(error) {
@@ -12,4 +12,4 @@ async function getUserAndPassword(user, password) {
     }
 }
 
-module.exports = {getUserAndPassword  }
+module.exports = { getUserAndPassword  }

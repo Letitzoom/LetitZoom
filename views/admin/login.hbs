@@ -1,11 +1,16 @@
-<form>
-  <div class="mb-3" style="margin: 100px auto">
-    <label for="exampleInputEmail1" class="form-label">Usuario</label>
-    <input type="usuario" class="form-control" id="nombre" aria-describedby="emailHelp">
+<div class="conteiner" style="margin: 100px 0">
+  <div class="row">
+    <div class="col">
+<form action="/admin/login" method="post">
+  <div class="form-group">
+    <label for="usuario">Usuario</label>
+    <input type="text" class="form-control" id="usuario" aria-describedby="emailHelp"
+    name="usuario">
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Clave</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+  <div class="form-group">
+    <label for="Password">Clave</label>
+    <input type="password" class="form-control" id="Password"
+    name="password">
   </div>
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -17,3 +22,7 @@
 {{#if error}}
 <p>Usuario o contraseña incorrectos</p>
 {{/if}}
+</div>
+</div>
+</div>
+
