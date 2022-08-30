@@ -38,13 +38,14 @@
 
 <div id="novedades" class="row py-4" class="container-fluid">
     <div class="col-md-5 offset-md-2 py-3">
-       
+       <h2>Novedades</h2>
         <ul class="lista-novedades">
+          {{#each novedades}}
             <div class="seccion-N">
-              <h2>Novedades</h2>
              <li><a href="https://www.youtube.com/watch?v=G_LH6_-hxVA"><img src="images/1611888759.png">
-                Alice in Borderland</a></li>
-             <li><a href="https://www.youtube.com/watch?v=XQGgKWuC5gk&t=8s"><img src="images/1611888759.png">
+                {{titulo}}</a></li>
+        {{/each}}
+          <li><a href="https://www.youtube.com/watch?v=XQGgKWuC5gk&t=8s"><img src="images/1611888759.png">
                 Scissor Seven</a></li>
              <li><a href="#"><img src="images/1611888759.png">
                 The Swindle (Proximamente)</a></li>
