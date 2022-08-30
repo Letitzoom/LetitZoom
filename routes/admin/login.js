@@ -4,14 +4,14 @@ var UsuariosModel = require("./../../models/UsuariosModel");
 
 router.get('/', function(req, res, next) {
     res.render('admin/login', {
-        layout: "admin/ADlayout"
+        layout: "admin/layout"
     });
   });
 
   router.get("/logout", function (req, res, next) {
     req.session.destroy();
     res.render("admin/login", {
-        layout: "admin/ADlayout"
+        layout: "admin/layout"
     })
   })
 
@@ -30,7 +30,7 @@ router.post("/", async (req, res, next) => {
             res.redirect("/admin/novedades");
         } else {
             res.render("admin/login", {
-                layout: "admin/ADlayout",
+                layout: "admin/layout",
                 error: true
             })
         }
